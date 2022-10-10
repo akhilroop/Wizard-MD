@@ -316,7 +316,7 @@ const charging = parseInt (chargerLevelStr)
   charger = charging
 })  
 //public/self
-if (!Wizard.public) {
+if (!Wizard.self) {
 if (!m.key.fromMe) return
 }
 
